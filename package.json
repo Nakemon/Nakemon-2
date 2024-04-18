@@ -1,0 +1,28 @@
+{
+  "name": "nakemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server.js",
+    "start": "pm2 start ./server.js",
+    "restart": "pm2 reload ./server.js",
+    "stop": "pm2 stop ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.9.4",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  }
+}
